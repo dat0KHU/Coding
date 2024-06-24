@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(27, 238, 150);
+}
+h1 {
+  color: rgb(0, 103, 43);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+p {
+  border: 3px solid rgb(45, 249, 228);
+  padding: 5px;
+  margin: 2px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+address{
+  text-align: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  text-align: right;
+}
