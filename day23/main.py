@@ -51,7 +51,7 @@
 
 # print(vending_machine(["Cola 2.00", "Borjomi 5.00", "Snickers 3.00", "Pomidori"]))
 
-def calculate(num1, num2, operator):
+def calculate(num1, operator, num2):
     if operator == '+':
         return num1 + num2
     elif operator == '-':
@@ -66,4 +66,4 @@ def calculate(num1, num2, operator):
     else:
         return "Error: Invalid operator"
     
-print(calculate(10, 20, "+"))
+print(calculate(int(input("Enter first number: ")), input("Enter operator: "), int(input("Enter second number: "))))
